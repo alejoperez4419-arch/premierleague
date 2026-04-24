@@ -110,3 +110,4 @@ function restart() {
   document.getElementById("section1").classList.add("active");
   document.getElementById("playerID").value = "";
 }
+
