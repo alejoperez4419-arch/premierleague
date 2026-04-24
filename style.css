@@ -5,7 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
 
 :root {
-  --bg-main: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+/*   --bg-main: linear-gradient(135deg, #0f2027, #203a43, #2c5364); */
   --glass-bg: rgba(255, 255, 255, 0.05);
   --glass-border: rgba(255, 255, 255, 0.1);
 
@@ -13,7 +13,7 @@
   --neon-purple: #a855f7;
   --neon-pink: #ff4ecd;
 
-  --text-main: #ffffff;
+
   --text-soft: rgba(255, 255, 255, 0.6);
 }
 
@@ -22,6 +22,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: black;
 }
 
 /* BODY */
@@ -106,7 +107,6 @@ input {
   border-radius: 12px;
   border: 1px solid var(--glass-border);
   background: rgba(255,255,255,0.05);
-  color: white;
   font-size: 15px;
   text-align: center;
   transition: 0.3s;
