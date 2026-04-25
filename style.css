@@ -22,7 +22,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: black;
+  color: white;
 }
 
 /* BODY */
@@ -34,6 +34,9 @@ body {
   align-items: center;
   justify-content: center;
   color: var(--text-main);
+  background-image: url(fondo.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 /* =========================
