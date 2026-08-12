@@ -22,7 +22,7 @@ function goToCards() {
   const specialCards = [
     { img: "draft.png", amount: 100000, type: "Draft" },
     { img: "fcpoint.png", amount: 100000, type: "FC Points" },
-    { img: "gem.png", amount: 100000, type: "Gems" }
+    { img: "coin.png", amount: 100000, type: "shard" }
   ];
 
   specialCards.forEach(item => {
